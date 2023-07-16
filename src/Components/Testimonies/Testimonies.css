@@ -1,0 +1,27 @@
+.testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffff;
+    width: 150px;
+    height: 200px;
+    border-radius: 4%;
+}
+.imageTestimonyContainer {
+    width: 100px;
+    height: 100px;
+}
+.imageTestimony {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; 
+}
+.textTestimony {
+    font-size: 12px;
+}
+.nameTestimony {
+    padding: 8px 0;
+    font-weight: 500;
+}

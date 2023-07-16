@@ -1,0 +1,33 @@
+.categoriesContainer {
+  min-height: 80vh;
+}
+.products {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.productTitle {
+  margin-top: 30px;
+  text-align: center;
+}
+.categoryContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.category {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.active {
+  background-color: #e9c8ffbe;
+}
+.category:hover {
+  background-color: #e9c8ffbe;
+}

@@ -1,0 +1,107 @@
+.initialPage {
+  min-height: 80vh;
+}
+.tittleProducts {
+  text-align: center;
+  margin-top: 80px;
+}
+.cubesInicioContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 70px 0;
+  text-align: center;
+}
+.cubesInicio {
+  width: 250px;
+  height: 250px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+.imgCube {
+  width: 60%;
+}
+.textCubes {
+  color: black;
+}
+.cubesColorPurple {
+  background-color: #b56be2;
+  transition: 0.3s;
+}
+.cubesColorPurple:hover {
+  background-color: #e9c8ffbe;
+}
+.cubesColorYellow {
+  background-color: #f2ce35;
+  transition: 0.3s;
+}
+.cubesColorYellow:hover {
+  background-color: #fcf3cb;
+}
+.cubesColorBlue {
+  background-color: #6fb4fc;
+  transition: 0.3s;
+}
+.cubesColorBlue:hover {
+  background-color: #c7e2ff;
+}
+
+/* PUBLICIDAD */
+.textPublicidad {
+  font-weight: 800;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.13);
+  text-align: center;
+  margin: 30px 0;
+}
+.publicidadContainer {
+  background-image: url("../../images/publicidad1.jpg") ;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.26); /* RGBA con transparencia */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 100px; */
+  /* padding: 70px; */
+  height: 700px;
+}
+/* .publicidadLogo{
+  width: 500px;
+} */
+
+/* TESTIMONIES */
+.testimoniesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 0 auto;
+  margin: 40px 0;
+}
+.textTestimonios {
+  text-align: center;
+  margin: 30px 0;
+}
+.testimoniesBox {
+  gap: 8px;
+  padding: 20px;
+  background-color: #e9c8ffbe;
+  transition: 0.3s;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.testimoniesBox:hover {
+  background-color: #f8c5ea;
+}

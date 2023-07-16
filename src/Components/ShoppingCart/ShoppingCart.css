@@ -1,0 +1,8 @@
+.ShoppingCart {
+  display: flex;
+  color: black;
+}
+
+.counterNumber {
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.navBar {
+  background-color: #f2ce35;
+}
+.navBarContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+.navBarLinks {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+.navBarLink {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+}

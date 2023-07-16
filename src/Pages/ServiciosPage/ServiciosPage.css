@@ -1,0 +1,49 @@
+.servicesContainer {
+  min-height: 80vh;
+}
+.servicesTittle {
+  text-align: center;
+  margin-top: 30px;
+}
+.colorInfoContainer {
+  background-color: #6fb4fc;
+}
+.infoContainer {
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px 0;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .infoContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+.infoContainer p{
+  margin: 20px 0px;
+  text-align: justify;
+}
+@media (min-width: 1200px) {
+  .infoContainer p{
+    margin: 0px;
+  }
+}
+
+.colorTranscriptionContainer {
+  background-color: #6fb4fc;
+}
+.imgService {
+  width: 80%;
+  border-radius: 5px;
+}
+@media (min-width: 1200px) {
+  .imgService {
+    width: 30%;
+    max-width: 400px;
+  }
+}
