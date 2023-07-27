@@ -4,3 +4,21 @@ body, h1, h2, h3, h4, h5, p {
   font-family: 'Lato', sans-serif;
   max-width: 100%;
 }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+div {
+  animation: sweep 0.10s ease-in-out;
+}
