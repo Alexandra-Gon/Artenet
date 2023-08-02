@@ -14,17 +14,35 @@
   text-align: center;
 }
 .categoryContainer {
+  width: 80%;
+  margin: 20px auto;
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: center;
-  margin: 20px 0;
 }
+@media (min-width: 760px) {
+  .categoryContainer {
+    gap: 20px;
+  }
+}
+
 .category {
+  height: 45px;
+  width: 100px;
   padding: 8px 12px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media (min-width: 760px) {
+  .category {
+    height: 40px;
+    width: 150px;
+  }
+}
+
 .active {
   background-color: #e9c8ffbe;
 }

@@ -66,28 +66,24 @@
 .publicidadContainer {
   background-image: url("../../images/publicidad1.jpg") ;
   background-size: cover;
+  background-position: center;
   background-color: rgba(255, 255, 255, 0.26); /* RGBA con transparencia */
-
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 100px; */
-  /* padding: 70px; */
-  height: 700px;
+  min-height: 400px;
 }
-/* .publicidadLogo{
-  width: 500px;
-} */
 
 /* TESTIMONIES */
 .testimoniesContainer {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin: 0 auto;
-  margin: 40px 0;
+  margin: 40px auto;
 }
 .textTestimonios {
   text-align: center;

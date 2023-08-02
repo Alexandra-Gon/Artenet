@@ -56,11 +56,9 @@ const ShopPage = () => {
                   Finalizar tu compra
                 </button>
               )}
-              <Link to="/productos">
-                <button className="buttonShop continueShop">
-                  Seguir comprando
-                </button>
-              </Link>
+              <button className="buttonShop continueShop">
+                <Link to="/productos">Seguir comprando</Link>
+              </button>
 
               <button className="emptyCart" onClick={() => emptyCart()}>
                 Vaciar carrito

@@ -44,10 +44,13 @@
 .buttonShopContainer {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   margin-top: 30px;
 }
 .buttonShop {
+  width: 100%;
+  max-width: 400px;
   padding: 10px 120px;
   cursor: pointer;
   border-radius: 5px;
@@ -61,6 +64,10 @@
   background-color: white;
   border: 1px solid #6fb4fc;
   color: #56a3f5;
+}
+.continueShop a {
+  text-decoration: none;
+  color: #3b97fa;
 }
 .emptyCart {
   border: none;

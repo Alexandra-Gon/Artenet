@@ -1,8 +1,15 @@
 .contactContainer {
   min-height: 80vh;
-  width: 60%;
+  width: 80%;
   margin: 80px auto;
-  margin-bottom: 10%;
+}
+
+@media (min-width: 760px) {
+  .contactContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
 }
 @media (min-width: 1200px) {
   .contactContainer {

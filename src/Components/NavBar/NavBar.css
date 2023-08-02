@@ -2,18 +2,39 @@
   background-color: #f2ce35;
 }
 .navBarContainer {
+  padding: 10px 0;
   width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: right;
-  align-items: center;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: start;
+  /* flex-direction: column; */
+}
+@media (min-width: 550px) {
+  .navBarContainer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+  }
 }
 .navBarLinks {
   display: flex;
+  flex-direction: column;
   justify-content: right;
   align-items: center;
-  gap: 20px;
+  gap: 5px;
+}
+
+@media (min-width: 550px) {
+  .navBarLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+  }
 }
 .navBarLink {
   color: black;
