@@ -1,77 +1,77 @@
 .CardItemsContainer {
-    height: min-content;
-    width: 150px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid rgba(124, 124, 124, 0.301);
+  height: min-content;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(124, 124, 124, 0.301);
+  border-radius: 0 0 8px 8px;
 }
-.CardItemsContainer:hover{
-    border: 1px solid rgba(37, 37, 37, 0.301);
+.CardItemsContainer:hover {
+  border: 1px solid rgba(37, 37, 37, 0.301);
 }
 .card {
-    font-size: 20px;
-    border-radius: 8px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  font-size: 20px;
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
-.cardLink{
-    text-decoration: none;
-    color: black;
+.cardLink {
+  text-decoration: none;
+  color: black;
 }
-.imgCardContainer{
-    height: 200px;
+.imgCardContainer {
+  height: 200px;
 }
 .imgCard {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.textCardContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+.textCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 .textCard {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-.priceCard{
-    margin: 5px 0;
+.priceCard {
+  margin: 5px 0;
 }
 .buttonCard {
-    background-color: #f2ce35;
-    border: none;
-    width: 100%;
-    height: 40px;
-    color: white;
-    border-radius: 8px;
-    transition: 0.3s;
-    cursor: pointer;
+  background-color: #f2ce35;
+  border: none;
+  width: 100%;
+  height: 40px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
 }
-.buttonCard:hover{
-    background-color: #e6c42d;
+.buttonCard:hover {
+  background-color: #e6c42d;
 }
 .buttonQuantityContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 40px;
-    border-radius: 8px;
-    transition: 0.3s;
-    border: 2px solid #f2ce35;
-    background-color: #fcf3cb; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 2px solid #f2ce35;
+  background-color: #fcf3cb;
 }
 .buttonQuantity {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 50%;
-    background-color: #f2ce35;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f2ce35;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
 }

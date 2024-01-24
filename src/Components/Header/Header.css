@@ -3,7 +3,7 @@
   background-color: #f3f3f3;
 }
 .headerContainer {
-  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column-reverse;
@@ -24,12 +24,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 8px;
+  font-size: 12px;
+}
+@media (min-width: 760px) {
+  .headerContact {
+    gap: 15px;
+    font-size: 14px;
+  }
 }
 .headerIcon {
   width: 20px;
   color: black;
 }
 .logo {
-  width: 150px;
+  width: 120px;
+}
+
+@media (min-width: 760px) {
+  .logo {
+    width: 150px;
+  }
 }

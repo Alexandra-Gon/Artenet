@@ -15,7 +15,6 @@ const ProductsPage = () => {
       setItemsCategory(itemsAll);
     } else {
       getCategory(categoryID);
-      console.log("itemsCategory", itemsCategory);
     }
   }, [itemsAll, categoryID]);
 
@@ -27,7 +26,7 @@ const ProductsPage = () => {
           <button
             className={categoryID === "all" ? "category active" : "category"}
           >
-            Todas las categorías
+            Todos
           </button>
         </Link>
         <Link to={`/productos/papeleria`}>

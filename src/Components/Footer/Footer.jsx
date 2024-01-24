@@ -58,16 +58,16 @@ const Footer = () => {
           </p>
         </div>
         <ul className="footerLinks">
-          <Link to="/" className="footerText">
+          <Link to="/" className="navBarLink">
             INICIO
           </Link>
-          <Link to="/servicios" className="footerText">
+          <Link to="/servicios" className="navBarLink">
             SERVICIOS
           </Link>
-          <Link to="/productos" className="footerText">
+          <Link to="/productos" className="navBarLink">
             PRODUCTOS
           </Link>
-          <Link to="/contacto" className="footerText">
+          <Link to="/contacto" className="navBarLink">
             CONTACTO
           </Link>
         </ul>

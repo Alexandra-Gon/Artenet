@@ -2,10 +2,12 @@
   background-color: #e2e2e2;
   padding: 10px 0;
   bottom: 0;
+  
 }
 
 .footerContainer {
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);

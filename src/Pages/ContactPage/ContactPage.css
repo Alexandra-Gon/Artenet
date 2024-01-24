@@ -1,7 +1,7 @@
 .contactContainer {
   min-height: 80vh;
-  width: 80%;
-  margin: 80px auto;
+  margin: 80px 15px;
+  max-width: 1200px;
 }
 
 @media (min-width: 760px) {
@@ -16,6 +16,11 @@
     display: flex;
     justify-content: center;
     gap: 50px;
+  }
+}
+@media (min-width: 1300px) {
+  .contactContainer {
+    margin: 80px auto;
   }
 }
 .contactTittle {

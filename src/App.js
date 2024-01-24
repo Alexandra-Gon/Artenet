@@ -15,8 +15,6 @@ import ProductsPage from "./Pages/ProductsPage/ProductsPage";
 import ShopPage from "./Pages/ShopPage/ShopPage";
 import ErrorPage from "./Pages/ErrorPage/ErrorPage";
 
-
-
 //CONTEXT
 import { ItemsProvider } from "./Context/Context";
 
